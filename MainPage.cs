@@ -1,6 +1,4 @@
-﻿using Microsoft.Maui.Controls.Shapes;
-
-namespace MatchingImage;
+﻿namespace MatchingImage;
 
 public partial class MainPage : FmgLibContentPage
 {
@@ -20,9 +18,7 @@ public partial class MainPage : FmgLibContentPage
                     .StrokeShape(new RoundRectangle().CornerRadius(16))
                 ),
 
-                new Style<Image>(e => e
-                    .Source("leaf.png")
-                )
+                new Style<Image>(e => e.Source("leaf.png"))
             }
         )
         .Content(
